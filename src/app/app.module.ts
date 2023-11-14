@@ -5,17 +5,20 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
 import { RouterModule } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DetailsComponent
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HomeComponent,
-    RouterModule
+    RouterModule,
+    RouterLink,
+    RouterOutlet
   ],
   providers: [],
   bootstrap: [AppComponent]
