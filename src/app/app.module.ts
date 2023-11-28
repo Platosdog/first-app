@@ -9,7 +9,6 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 
 @NgModule({
   declarations: [
-    AppComponent,
     DetailsComponent,
   ],
   imports: [
@@ -18,9 +17,10 @@ import { RouterLink, RouterOutlet } from '@angular/router';
     HomeComponent,
     RouterModule,
     RouterLink,
+    AppComponent,
     RouterOutlet
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: []
 })
 export class AppModule { }
