@@ -9,7 +9,6 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 
 @NgModule({
   declarations: [
-    DetailsComponent,
   ],
   imports: [
     BrowserModule,
@@ -18,6 +17,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
     RouterModule,
     RouterLink,
     AppComponent,
+    DetailsComponent,
     RouterOutlet
   ],
   providers: [],
